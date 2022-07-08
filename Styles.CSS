@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+    color: beige;
+    height: 5000px;
+    font-size: 35px;
+    margin: 25px;
+}
+
+
+.upper-div{
+    border: 2px solid lightblue;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-div{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+
+.medium-div{
+    height: 650px;
+    border: 2px solid lightslategray;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 55px 1fr;
+}
+
+.about{
+    grid-column: 1 / span 2;
+    border: 2px solid lightcoral;
+    height: 50px;
+}
+.about-content{
+    border: 2px solid lightcyan;
+    height: 1fr;
+}
+
+.about-photos{
+    border: 2px solid lightseagreen
+}
+
+
+.lower-div{
+    border: 2px solid green;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 50px 1fr;
+}
+
+.container{
+    border: 2px solid lightcoral;
+}
