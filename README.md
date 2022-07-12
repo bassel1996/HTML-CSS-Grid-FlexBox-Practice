@@ -1,2 +1,2 @@
-# Beginner-CSS-Practice
+# HTML-CSS-Practice
  
